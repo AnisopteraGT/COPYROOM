@@ -1,0 +1,68 @@
+# ============================================================
+# COPYROOM - Git ignore rules
+# Repository root: D:/GameDev/COPYROOM
+# ============================================================
+
+# Unreal Engine generated data
+**/Binaries/
+**/DerivedDataCache/
+**/Intermediate/
+**/Saved/
+**/.vs/
+**/.idea/
+**/.vscode/
+**/obj/
+
+# Generated IDE/project files
+**/*.sln
+**/*.suo
+**/*.opensdf
+**/*.sdf
+**/*.VC.db
+**/*.VC.opendb
+**/*.xcodeproj
+**/*.xcworkspace
+**/*.code-workspace
+**/*.user
+**/*.userprefs
+
+# Packaged builds and local test output
+/Builds/
+/Project/**/StagedBuilds/
+
+# Unreal developer-local scratch content
+/Project/**/Content/Developers/
+
+# Exploratory AI/source-art inboxes
+/SourceAssets/AI_Inbox/
+/SourceAssets/Meshy_Exports/_Rejected/
+/SourceAssets/**/_Temp/
+/References/_Inbox/
+
+# Operating-system and editor noise
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.tmp
+*.temp
+*.bak
+*.autosave
+*.log
+
+# Crash/debug artifacts
+*.dmp
+*.pdb
+
+# Secrets and credentials
+.env
+.env.*
+*.key
+*.pem
+*.pfx
+credentials.*
+secrets.*
+
+# Duplicate archives; keep their unpacked source instead
+*.zip
+*.7z
+*.rar
